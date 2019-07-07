@@ -1,12 +1,12 @@
 {
   "name": "next-express-bootstrap-boilerplate",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "JavaScript boilerplate for a full stack app built using React.js, Next.js, Express.js, react-bootstrap, SCSS and full SSR with eslint.",
   "main": "app.js",
-  "repository": "https://github.com/MustansirZia/next-express-bootstrap-boilerplate",
+  "repository": "https://github.com/phuongnq/next-express-bootstrap-boilerplate",
   "author": {
-    "name": "Mustansir Zia",
-    "email": "mustansir29@hotmail.com"
+    "name": "Phil Nguyen",
+    "email": "nquangphuong@gmail.com"
   },
   "keywords": [
     "react",
@@ -39,7 +39,7 @@
       "global-require": "off",
       "indent": [
         "error",
-        4
+        2
       ],
       "no-console": "off",
       "comma-dangle": "off",
@@ -48,11 +48,11 @@
       "no-use-before-define": "off",
       "react/jsx-indent": [
         "error",
-        4
+        2
       ],
       "react/jsx-indent-props": [
         "error",
-        4
+        2
       ],
       "react/jsx-filename-extension": [
         1,
@@ -68,7 +68,8 @@
     }
   },
   "dependencies": {
-    "autoprefixer": "9.1.0",
+    "@zeit/next-sass": "^1.0.1",
+    "autoprefixer": "^9.6.1",
     "babel-plugin-module-resolver": "^3.1.1",
     "babel-plugin-wrap-in-js": "^1.1.0",
     "body-parser": "^1.18.2",
@@ -76,21 +77,21 @@
     "express": "^4.16.2",
     "glob": "^7.1.2",
     "morgan": "^1.9.0",
-    "next": "^6.1.1",
-    "node-sass": "^4.4.0",
+    "next": "^8.1.0",
+    "node-sass": "^4.12.0",
     "normalize.css": "^8.0.0",
     "postcss-easy-import": "^3.0.0",
-    "postcss-loader": "^2.0.7",
+    "postcss-loader": "^3.0.0",
     "prop-types": "^15.6.0",
-    "raw-loader": "^0.5.1",
+    "raw-loader": "^3.0.0",
     "react": "^16.0.0",
-    "react-bootstrap": "^0.32.1",
+    "react-bootstrap": "^1.0.0-beta.9",
     "react-dom": "^16.0.0",
     "sass-loader": "^7.1.0"
   },
   "devDependencies": {
-    "eslint": "^4.10.0",
-    "eslint-config-airbnb": "^16.1.0",
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb": "^17.1.1",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.4.0",
